@@ -65,8 +65,7 @@ covariance_results  = results[:][1]
 history_results     = results[:][2]
 phenotype_results   = results[:][3]
 
+# Save_Output
 with open('Bivariate_AM_Simulation_Results.pkl', 'wb') as f:
     pickle.dump((results_summary, covariance_results, history_results, phenotype_results), f)
 
-with open('Bivariate_AM_Simulation_Results.pkl', 'rb') as f:
-    t1, t2, t3, t4 = pickle.load(f)
