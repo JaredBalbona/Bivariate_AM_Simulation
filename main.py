@@ -1,4 +1,3 @@
-import multiprocessing
 from joblib import Parallel, delayed
 import pickle
 
@@ -68,4 +67,3 @@ phenotype_results   = results[:][3]
 # Save_Output
 with open('Bivariate_AM_Simulation_Results.pkl', 'wb') as f:
     pickle.dump((results_summary, covariance_results, history_results, phenotype_results), f)
-
