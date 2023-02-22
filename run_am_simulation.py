@@ -80,10 +80,4 @@ def run_am_simulation(population_size, num_variants, num_generations, seed, max_
     # Run Simulation: 
     results_summary, covariances, history, phenotype_summary = am_simulate(variant_info=variant_info, num_generations=num_generations, population_size=population_size, avoid_inbreeding=avoid_inbreeding, save_history=save_history, save_covariances=save_covariances, e_covmat=e_covmat, f_mat=f_mat, a_mat=a_mat, delta_mat=delta_mat, am_mat_list=am_mat_list, y_covmat=y_covmat, vg_mat=vg_mat, num_variants=num_variants)
 
-    # Gather Ouput:
-    # results = [am_data["results_summary"], am_data["covs"], am_data["phen_summary"]]
-    # results = [f"Summary.it{iteration_num}" for iteration_num in results]
-    # results = [f"Covs.it{iteration_num}" for iteration_num in results[1:]]
-    # results = [f"PHEN.it{iteration_num}" for iteration_num in results[2:]]
-
     return results_summary, covariances, history, phenotype_summary
