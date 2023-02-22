@@ -41,7 +41,7 @@ am22 = 0.15 # Mate1-Trait2, Mate2-Trait2
 f11 = 0.0 # Offspring Trait 1 regressed on Parental Trait 1
 f12 = 0.1 # Offspring Trait 1 regressed on Parental Trait 2
 f21 = 0.2 # Offspring Trait 2 regressed on Parental Trait 1
-f22 = 0.3 # Offspring Trait 1 regressed on Parental Trait 2
+f22 = 0.3 # Offspring Trait 2 regressed on Parental Trait 2
 
 # Environmental Components
 re = .1 # Environmental correlation between Trait 1 and Trait 2
