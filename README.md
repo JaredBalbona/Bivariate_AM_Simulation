@@ -1,4 +1,4 @@
-## Multivariate Simulation of Human Population Growth
+## Genetically Informed Multivariate Simulation of Human Population Growth
 
 ----
 
